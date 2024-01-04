@@ -1,0 +1,19 @@
+-- import: fastn
+
+-- fastn.package: yashveer29.github.io/fifthtry-website
+favicon: /-/yashveer29.github.io/fifthtry-website/favicon.ico
+
+-- fastn.dependency: fastn-community.github.io/doc-site as doc-site
+-- fastn.dependency: fastn-community.github.io/footer
+-- fastn.dependency: fastn-community.github.io/roboto-typography
+-- fastn.dependency: fastn-community.github.io/dark-flame-cs
+
+-- fastn.auto-import: yashveer29.github.io/fifthtry-website/FASTN/ds
+-- fastn.auto-import: yashveer29.github.io/fifthtry-website/assets
+-- fastn.auto-import: doc-site
+
+-- fastn.sitemap:
+
+# Home: index.html
+
+- Right Sidebar Sample: /sidebar/
