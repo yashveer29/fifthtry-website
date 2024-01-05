@@ -2,7 +2,10 @@
 
 -- header:
 
+-- hero:
+
 -- end: ds.page
+
 
 
 -- component header:
@@ -15,7 +18,7 @@
 	margin: $ds.spaces.vertical-gap.extra-large
 
 -- ftd.image:
-src: /Users/yashveer/Documents/fifthtry-website/assets/Logo.png
+src: assets/Logo.png
 
 -- ds.row:
 width: hug-content
@@ -34,3 +37,29 @@ link: /
 -- end: ds.section-row
 
 -- end: header
+
+
+
+-- component hero:
+
+-- ds.section-row:
+spacing: $ds.spaces.horizontal-gap.extra-large
+inset: $ds.spaces.inset-tall.zero-medium
+
+-- ds.column:
+spacing: $ds.spaces.vertical-gap.large
+
+-- ds.heading-small: UI/UX | Product design
+-- ds.heading-hero: My awesome portfolio
+-- ds.heading-tiny: And I made it myself! Yes. usign fifthtry design system
+
+-- end: ds.column
+
+-- ftd.image:
+src: assets/Image.png
+
+-- end: ds.section-row
+
+-- end: hero
+
+
