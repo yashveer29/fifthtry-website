@@ -1,6 +1,36 @@
 -- ds.page:
 
--- ds.heading-hero: this is a heading-hero
--- ds.heading-large: this is heading-large
+-- header:
 
 -- end: ds.page
+
+
+-- component header:
+
+-- ds.section-row:
+	inset: $ds.spaces.inset-wide.large
+	outer-background.solid: $ds.colors.background.step-2
+	spacing: $ds.spaces.horizontal-gap.space-between
+	flush: full
+	margin: $ds.spaces.vertical-gap.extra-large
+
+-- ftd.image:
+src: /Users/yashveer/Documents/fifthtry-website/assets/Logo.png
+
+-- ds.row:
+width: hug-content
+
+-- ds.header-link: About
+link: /
+
+-- ds.header-link: Work
+link: /
+
+-- ds.header-link: Contact
+link: /
+
+-- end: ds.row
+
+-- end: ds.section-row
+
+-- end: header
