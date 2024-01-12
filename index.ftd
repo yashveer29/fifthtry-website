@@ -4,18 +4,31 @@
 
 -- hero:
 
+-- logos:
+
+-- all-skills:
+
+-- all-work:My latest Work
+
 -- end: ds.page
+
+
+
+
+
+
+
 
 
 
 -- component header:
 
 -- ds.section-row:
-	inset: $ds.spaces.inset-wide.large
-	outer-background.solid: $ds.colors.background.step-2
-	spacing: $ds.spaces.horizontal-gap.space-between
-	flush: full
-	margin: $ds.spaces.vertical-gap.extra-large
+inset: $ds.spaces.inset-wide.large
+outer-background.solid: $ds.colors.background.step-2
+spacing: $ds.spaces.horizontal-gap.space-between
+flush: full
+margin: $ds.spaces.vertical-gap.extra-large
 
 -- ftd.image:
 src: assets/Logo.png
@@ -40,6 +53,13 @@ link: /
 
 
 
+
+
+
+
+
+
+
 -- component hero:
 
 -- ds.section-row:
@@ -51,15 +71,213 @@ spacing: $ds.spaces.vertical-gap.large
 
 -- ds.heading-small: UI/UX | Product design
 -- ds.heading-hero: My awesome portfolio
--- ds.heading-tiny: And I made it myself! Yes. usign fifthtry design system
+-- ds.heading-tiny: And I made it myself! Yes using fifthtry design system
 
 -- end: ds.column
 
 -- ftd.image:
-src: assets/Image.png
+src: assets/hero-img.png
 
 -- end: ds.section-row
 
 -- end: hero
+
+
+
+
+
+
+
+
+
+-- component logos:
+
+-- ds.section-row:
+flush: full
+;;border-top: $ds.borders.thin
+;;border-bottom: $ds.borders.thin
+
+
+-- ftd.image:
+src: $assets.files.assets.logos.dribbble.png
+
+-- ftd.image:
+src: $assets.files.assets.logos.Behance.png
+
+-- ftd.image:
+src: $assets.files.assets.logos.Apple.png
+
+-- ftd.image:
+src: $assets.files.assets.logos.Google.png
+
+-- ftd.image:
+src: $assets.files.assets.logos.awwwards.png
+
+
+-- end: ds.section-row
+
+-- end: logos
+
+
+
+
+
+
+
+
+-- component skills:
+caption title:
+body body: 
+ftd.image-src image:
+
+-- ds.column:
+width.fixed.px: 240
+inset: $ds.spaces.inset-square.small
+
+-- ftd.image:
+src: $skills.image
+
+-- ds.heading-small: $skills.title
+align: center
+
+-- ds.copy-small:
+align: center
+
+$skills.body
+
+
+-- end: ds.column
+
+-- end: skills
+
+
+
+
+
+
+
+
+-- component all-skills:
+
+-- ds.inline-row:
+width: fill-container
+spacing: $ds.spaces.horizontal-gap.large
+;;margin: $ds.spaces.vertical-gap.exta-large
+
+-- skills: Product Design
+image: $assets.files.assets.skills.product-design.png
+
+This is a template Figma file, turned into code using Anima. Learn more at AnimaApp.com
+
+-- skills: Art direction
+image: $assets.files.assets.skills.product-design.png
+
+This is a template Figma file, turned into code using Anima. Learn more at AnimaApp.com
+
+-- skills: Visual design
+image: $assets.files.assets.skills.product-design.png
+
+This is a template Figma file, turned into code using Anima. Learn more at AnimaApp.com
+
+-- end: ds.inline-row
+
+-- end: all-skills
+
+
+
+
+
+
+
+-- component work:
+caption title:
+body body: 
+ftd.image-src image:
+
+-- ds.column:
+align-content: left
+width.fixed.px: 240
+inset: $ds.spaces.inset-square.small
+spacing: $ds.spaces.vertical-gap.small
+
+-- ftd.image:
+src: $work.image
+width: fill-container
+
+-- ds.heading-tiny: $work.title
+align: left
+
+-- ds.copy-small:
+align: left
+
+$work.body
+
+
+-- end: ds.column
+
+-- end: work
+
+
+
+
+
+
+-- component all-work:
+caption title: 
+
+-- ds.column:
+spacing: $ds.spaces.vertical-gap.medium
+
+-- ds.heading-large: $all-work.title
+align: center
+
+-- ds.inline-row:
+width: fill-container
+spacing: $ds.spaces.horizontal-gap.large
+;;margin: $ds.spaces.vertical-gap.exta-large
+;;wrap: true
+
+-- work: Free Bird
+image: $assets.files.assets.work.img1.png
+
+Lynyrd Skynyrd
+
+-- work: Purple Haze
+image: $assets.files.assets.work.img2.png
+
+Jimi Hendrix
+
+-- work: You Really Got Me
+image: $assets.files.assets.work.img3.png
+
+The Kinks
+
+-- work: American Girl
+image: $assets.files.assets.work.img4.png
+
+Tom Petty
+
+-- work: Whole Lotta Love
+image: $assets.files.assets.work.img5.png
+
+Led Zeppelin
+
+-- work: Under Pressure 
+image: $assets.files.assets.work.img6.png
+
+Queen
+
+-- end: ds.inline-row
+
+-- end: ds.column
+
+-- end: all-work
+
+
+
+
+
+
+
 
 
